@@ -1,5 +1,5 @@
 variable "x" {
-  default = "abc"
+  khan = "abc"
 }
 
 output "x"{
