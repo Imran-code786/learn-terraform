@@ -7,7 +7,7 @@ variable "y" {
 }
 
 variable "imran" {
-  defaukt = "Noor jahan"
+  default = "Noor jahan"
 }
 
 output "Imran" {
