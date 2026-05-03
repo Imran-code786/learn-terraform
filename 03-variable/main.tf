@@ -10,7 +10,8 @@ variable "imran" {
   default = "Noor jahan"
 }
 
-output "Imran" {
+
+output "khan" {
   value = var.imran
 }
 
