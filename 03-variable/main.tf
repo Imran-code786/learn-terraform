@@ -7,7 +7,7 @@ variable "y" {
 }
 
 output "x"{
-  value = 10
+  value = var.x
 }
 
 output "y" {
