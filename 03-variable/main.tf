@@ -23,7 +23,7 @@ output "khan" {
 }
 
 output "x"{
-  value = "x is  ${var.x}"
+  value = "x is  var.x"
 }
 
 output "y" {
