@@ -26,7 +26,7 @@ variable "example2" {
   }
 }
 output "map"{
-  value = var.example2["a"]
+  value = var.example2["b"]
 }
 
 output "ex" {
