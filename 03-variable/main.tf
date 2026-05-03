@@ -1,7 +1,15 @@
 variable "x" {
-  khan = "abc"
+  default = "abc"
+}
+
+variable "y" {
+  default = 10
 }
 
 output "x"{
-  value = var.x
+  value = 10
+}
+
+output "y" {
+  value = var.y
 }
