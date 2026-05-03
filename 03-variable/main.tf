@@ -14,6 +14,15 @@ variable "z"{
   default = false
 }
 
+variable "example1" {
+  default = [1,"a",false,2]
+}
+
+output "ex" {
+  value = var.example1[2]
+}
+
+
 output "boolean" {
   value = var.z
 }
@@ -23,7 +32,7 @@ output "khan" {
 }
 
 output "x"{
-  value = "x is  var.x"
+  value = "x is  ${var.x}"
 }
 
 output "y" {
