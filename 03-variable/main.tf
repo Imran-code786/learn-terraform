@@ -18,6 +18,17 @@ variable "example1" {
   default = [1,"a",false,2]
 }
 
+variable "example2" {
+  default = {
+    a = "f00"
+    b = 0
+    c  "bar"
+  }
+}
+output "map"{
+  value = var.example2["a"]
+}
+
 output "ex" {
   value = var.example1[2]
 }
