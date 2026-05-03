@@ -10,6 +10,13 @@ variable "imran" {
   default = "Noor jahan"
 }
 
+variable "z"{
+  default = false
+}
+
+output "boolean" {
+  value = var.z
+}
 
 output "khan" {
   value = var.imran
