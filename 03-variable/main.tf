@@ -22,7 +22,7 @@ variable "example2" {
   default = {
     a = "f00"
     b = 0
-    c  "bar"
+    c = "bar"
   }
 }
 output "map"{
