@@ -17,7 +17,8 @@ resource "null_resource" "test" {
       password = "DevOps321"
     }
     inline = [
-        " echo Hello >/tmp/some"
+        " echo Hello >/tmp/some",
+        "echo Hllo >/tmp/some1"
 
     ]
   }
