@@ -14,6 +14,7 @@ resource "aws_instance" "test1" {
     }
     inline = [
       "echo Hello >/tmp/some"
+      "echo Hello >/tmp/some1"
     ]
   }
 }
