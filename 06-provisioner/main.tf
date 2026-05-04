@@ -13,7 +13,8 @@ resource "aws_instance" "test1" {
       password = "DevOps321"
     }
     inline = [
-      "echo Hello >/tmp/some"
+      "echo Hello >/tmp/some",
+      "echo Hell >/tmp.some1"
 
     ]
   }
