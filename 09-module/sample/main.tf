@@ -3,7 +3,7 @@ variable "message" {}
 resource "null_resource" "test1" {
   provisioner "local-exec" {
 
-    command = "echo ${var.message}
+    command = "echo ${var.message}"
   }
 }
 
