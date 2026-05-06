@@ -1,8 +1,8 @@
-resource "null_resource" "test" {
-  for_each = var.inputs
+resource "null_resource" "test1" {
+  for_each = var.output
 }
 
-variable "inputs"{
+variable "output" {
   default = {
     x = 100
     y = 200
