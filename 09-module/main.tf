@@ -1,12 +1,12 @@
 module "sample" {
   source = "./sample"
-  message = var.message
-  a = var.a
-  b = var.b
+  message  = var.message
+  a  = var.a
+  b  = var.b
 }
 
 variable "message" {
-  default = "Hellow World"
+  default = "Hello world"
 }
 
 variable "a" {
@@ -18,5 +18,5 @@ variable "b" {
 }
 
 output "output_from_module" {
-  value = module.sample.multiply
+  value = "module.sample.multiply"
 }
