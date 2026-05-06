@@ -1,5 +1,10 @@
 resource "null_resource" "test1" {
   for_each = var.output
+
+  triggers = {
+     name = each.key
+     value = each.value
+  }
 }
 
 variable "output" {
