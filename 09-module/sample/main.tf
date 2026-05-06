@@ -10,6 +10,6 @@ resource "null_resource" "test1" {
 variable "a" {}
 variable "b" {}
 
-output "multiple" {
+output "multiply" {
   value = var.a * var.b
 }
