@@ -16,3 +16,7 @@ output "some_title" {
 output "some_length" {
   value = length(var.some)
 }
+
+output "some_substr" {
+  value = substr(var.some, 0, 5)
+}
