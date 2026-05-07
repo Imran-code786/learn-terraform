@@ -36,3 +36,7 @@ output "some_replace" {
 output "some_max" {
   value = max(10, 20, 30)
 }
+
+output "some_formate" {
+  value = formate("Hello, %s! You have %d items.", "user", 5)
+}
