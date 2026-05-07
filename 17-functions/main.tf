@@ -20,3 +20,7 @@ output "some_length" {
 output "some_substr" {
   value = substr(var.some, 0, 8)
 }
+
+output "some_join" {
+  value = join("-", ["hello", "world", "terraform"])
+}
