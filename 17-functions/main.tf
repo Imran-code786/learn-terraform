@@ -22,5 +22,5 @@ output "some_substr" {
 }
 
 output "some_join" {
-  value = join("-", ["hello", "world", "terraform"])
+  value = join("*", ["hello", "world", "terraform"])
 }
