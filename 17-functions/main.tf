@@ -10,3 +10,6 @@ output "some_lower" {
   value = lower("HELLO WORLD")
 }
 
+output "some_title" {
+  value = title("hello world")
+}
