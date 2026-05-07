@@ -32,3 +32,7 @@ output "some_split" {
 output "some_replace" {
   value = replace(var.some, "world", "terraform")
 }
+
+output "some_max" {
+  value = max(10, 20, 30)
+}
