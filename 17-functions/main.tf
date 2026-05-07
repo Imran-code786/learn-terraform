@@ -28,3 +28,7 @@ output "some_join" {
 output "some_split" {
   value = split(" ",var.some)
 }
+
+output "some_replace" {
+  value = replace(var.some, "world", "terraform")
+}
