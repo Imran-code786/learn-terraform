@@ -18,5 +18,5 @@ output "some_length" {
 }
 
 output "some_substr" {
-  value = substr(var.some, 0, 5)
+  value = substr(var.some, 0, 6)
 }
