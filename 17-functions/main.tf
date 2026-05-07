@@ -13,3 +13,6 @@ output "some_lower" {
 output "some_title" {
   value = title("hello world")
 }
+output "some_length" {
+  value = length(var.some)
+}
