@@ -38,5 +38,5 @@ output "some_max" {
 }
 
 output "some_formate" {
-  value = formate("Hello, %s! You have %d items.", "user", 5)
+  value = format("Hello, %s! You have %d items.", "user", 5)
 }
