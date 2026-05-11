@@ -12,5 +12,9 @@ variable "b" {}
 
 output "multiply" {
   value = var.a * var.b
+
+}
+
+output "message" {
   value = var.message
 }
