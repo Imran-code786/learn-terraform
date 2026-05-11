@@ -9,9 +9,9 @@ resource "aws_instance" "Name" {
 }
 
 resource "null_resource" "test" {
-    triggers = {
-      always = timestamp()
-    }
+    # triggers = {
+    #   always = timestamp()
+    # }
 
   provisioner "remote-exec" {
     connection {
