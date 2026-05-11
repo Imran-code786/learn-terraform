@@ -20,3 +20,7 @@ variable "b" {
 output "output_from_module" {
   value = module.sample.multiply
 }
+
+output "output_from_message" {
+  value = module.sample.message
+}
