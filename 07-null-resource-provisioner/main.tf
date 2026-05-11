@@ -24,7 +24,8 @@ resource "null_resource" "test" {
 
     inline  =  [
        "echo Hello >/tmp/some",
-        "echo Hello >/tmp/some123"
+        "echo Hello >/tmp/some123",
+         "echo Hello >/tmp/imran"
     ]
   }
 }
