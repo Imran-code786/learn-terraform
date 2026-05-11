@@ -1,6 +1,10 @@
 variable "message" {}
 
 resource "null_resource" "test1" {
+  triggers = {
+    always = timestamp()
+  }
+
   provisioner "local-exec" {
 
     command = "echo ${var.message}"
