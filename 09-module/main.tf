@@ -18,5 +18,5 @@ variable "b" {
 }
 
 output "output_from_module" {
-  value = "module.sample.multiply"
+  value = module.sample.multiply
 }
